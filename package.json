@@ -1,6 +1,6 @@
 {
   "name": "any-fetch-retry",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "Adds retry functionality to the any Fetch API package",
   "repository": "https://github.com/jonbern/fetch-retry.git",
   "main": "index.js",
