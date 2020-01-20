@@ -9,7 +9,7 @@ It wraps any `Fetch` API package (eg: [isomorphic-fetch](https://github.com/matt
 ## npm package
 
 ```javascript
-npm install fetch-retry --save
+npm install any-fetch-retry --save
 ```
 
 ## Example
@@ -19,7 +19,7 @@ These properties are optional, and when omitted will default to 3 retries, a 100
 
 ```javascript
 var originalFetch = require('isomorphic-fetch');
-var fetch = require('fetch-retry')(originalFetch);
+var fetch = require('any-fetch-retry')(originalFetch);
 ```
 
 ```javascript

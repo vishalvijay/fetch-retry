@@ -1,4 +1,4 @@
-declare module 'fetch-retry' {
+declare module 'any-fetch-retry' {
   type RequestDelayFunction = ((
     attempt: number,
     error: Error | null,
